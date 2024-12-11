@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PravinDevMaster/mobileShopReact/static/css/main.364fc036.css",
+    "main.js": "/PravinDevMaster/mobileShopReact/static/js/main.5ad40f70.js",
+    "index.html": "/PravinDevMaster/mobileShopReact/index.html",
+    "main.364fc036.css.map": "/PravinDevMaster/mobileShopReact/static/css/main.364fc036.css.map",
+    "main.5ad40f70.js.map": "/PravinDevMaster/mobileShopReact/static/js/main.5ad40f70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.364fc036.css",
+    "static/js/main.5ad40f70.js"
+  ]
+}
