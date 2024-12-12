@@ -4,7 +4,7 @@ import { Box, Grid, useMediaQuery } from "@mui/material";
 import { EndIconButton } from "../../components/EndIconButton";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
-
+import AppleIPhone from "../../assets/Apple-iPhone.png"
 // Import Swiper styles
 // import 'swiper/swiper.min.css';
 // import 'swiper/components/pagination/pagination.min.css';
@@ -41,7 +41,7 @@ const Home = () => {
           <Fade right>
             <div className="">
               <img
-                src={"./assets/Apple-iPhone.png"}
+                src={AppleIPhone}
                 alt=""
                 className="img-animated"
               />

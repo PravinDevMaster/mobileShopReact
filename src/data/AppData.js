@@ -1,3 +1,24 @@
+import boatLogo from "../assets/productLogo/boat-logo.png"
+import hihonorLogo from "../assets/productLogo/hihonor-logo.png"
+import oppoLogo from "../assets/productLogo/oppo-logo.png"
+import realmeLogo from "../assets/productLogo/realme-logo.png"
+import samsungLogo from "../assets/productLogo/samsung-logo.png"
+import sonyLogo from "../assets/productLogo/sony-logo.png"
+import vivoLogo from "../assets/productLogo/vivo-logo.png"
+import motorolaLogo from "../assets/productLogo/motorola.png"
+import AppleiWatchSeProduct from "../assets/product/APPLE-Watch-SE-GPS(2nd Gen).webp"
+import APPLEAirpodsMaxProduct from "../assets/product/APPLEAirpodsMax.webp"
+import AppleiPhone12Product from "../assets/product/AppleiPhone12.png"
+import OnePlusBandProduct from "../assets/product/OnePlusBand.webp"
+import BoatStormCallProduct from "../assets/product/boAt-Storm-call.webp"
+import boAtRockerz510Product from "../assets/product/boAtRockerz510.webp"
+import onePlusNord2T5GProduct from "../assets/product/onePlusNord2T5G.webp"
+import realmeTechLifeWatchS100Product from "../assets/product/realme-TechLife-Watch-S100.webp"
+import RealmeC55Product from "../assets/product/realme-c55-1.jpg"
+import realmeBudsAir2Product from "../assets/product/realmeBudsAir2.webp"
+import vivo2TX5GProduct from "../assets/product/vivo2TX5G.webp"
+import wirelessZ2Product from "../assets/product/wireless-z2-oneplus.webp"
+
 export const Appdata = {
   menuList: [
     { text: "Home", link: "#home", type: "list" },
@@ -8,28 +29,28 @@ export const Appdata = {
   ],
   productLogoSlider: [
     {
-      imgURL: "./assets/productLogo/boat-logo.png"
+      imgURL: boatLogo
     },
     {
-      imgURL: "./assets/productLogo/hihonor-logo.png"
+      imgURL:hihonorLogo
     },
     {
-      imgURL: "./assets/productLogo/oppo-logo.png"
+      imgURL: oppoLogo
     },
     {
-      imgURL: "./assets/productLogo/realme-logo.png"
+      imgURL: realmeLogo
     },
     {
-      imgURL: "./assets/productLogo/samsung-logo.png"
+      imgURL: samsungLogo
     },
     {
-      imgURL: "./assets/productLogo/sony-logo.png"
+      imgURL: sonyLogo
     },
     {
-      imgURL: "./assets/productLogo/vivo-logo.png"
+      imgURL: vivoLogo
     },
     {
-      imgURL: "./assets/productLogo/motorola.png"
+      imgURL: motorolaLogo
     }
   ],
   productFilterList: [
@@ -40,7 +61,7 @@ export const Appdata = {
   ],
   productList: [
     {
-      imaURL: "./assets/product/AppleiPhone12.png",
+      imaURL: AppleiPhone12Product,
       title: "Realme C55",
       type: "mobile",
       featuresList: [
@@ -52,7 +73,7 @@ export const Appdata = {
       ]
     },
     {
-      imaURL: "./assets/product/APPLEAirpodsMax.webp",
+      imaURL: APPLEAirpodsMaxProduct,
       title: "APPLE Airpods Max Bluetooth Headset",
       type: "headphone",
       featuresList: [
@@ -65,7 +86,7 @@ export const Appdata = {
       ]
     },
     {
-      imaURL: "./assets/product/APPLE-Watch-SE-GPS(2nd Gen).webp",
+      imaURL: AppleiWatchSeProduct,
       title: "APPLE Watch SE GPS 2nd Gen",
       type: "watch",
       featuresList: [
@@ -78,7 +99,7 @@ export const Appdata = {
       ]
     },
     {
-      imaURL: "./assets/product/realme-c55-1.jpg",
+      imaURL: RealmeC55Product,
       title: "Realme C55",
       type: "mobile",
       featuresList: [
@@ -91,7 +112,7 @@ export const Appdata = {
       ]
     },
     {
-      imaURL: "./assets/product/realmeBudsAir2.webp",
+      imaURL:realmeBudsAir2Product,
       title: "Realme Buds Air 2",
       type: "headphone",
       featuresList: [
@@ -105,7 +126,7 @@ export const Appdata = {
       ]
     },
     {
-      imaURL: "./assets/product/realme-TechLife-Watch-S100.webp",
+      imaURL: realmeTechLifeWatchS100Product,
       title: "Realme TechLife Watch S100 ",
       type: "watch",
       featuresList: [
@@ -116,7 +137,7 @@ export const Appdata = {
       ]
     },
     {
-      imaURL: "./assets/product/onePlusNord2T5G.webp",
+      imaURL: onePlusNord2T5GProduct,
       title: "OnePlus Nord 2T 5G",
       type: "mobile",
       featuresList: [
@@ -129,7 +150,7 @@ export const Appdata = {
       ]
     },
     {
-      imaURL: "./assets/product/wireless-z2-oneplus.webp",
+      imaURL: wirelessZ2Product,
       title: "OnePlus Bullets Wireless Z2",
       type: "headphone",
       featuresList: [
@@ -141,7 +162,7 @@ export const Appdata = {
       ]
     },
     {
-      imaURL: "./assets/product/OnePlusBand.webp",
+      imaURL: OnePlusBandProduct,
       title: "OnePlus Band (Black Strap)",
       type: "watch",
       featuresList: [
@@ -155,7 +176,7 @@ export const Appdata = {
       ]
     },
     {
-      imaURL: "./assets/product/vivo2TX5G.webp",
+      imaURL: vivo2TX5GProduct,
       title: "VIVO 2T X 5G",
       type: "mobile",
       featuresList: [
@@ -168,7 +189,7 @@ export const Appdata = {
       ]
     },
     {
-      imaURL: "./assets/product/boAtRockerz510.webp",
+      imaURL: boAtRockerz510Product,
       title: "boAt Rockerz 510 Super Extra Bass",
       type: "headphone",
       featuresList: [
@@ -180,7 +201,7 @@ export const Appdata = {
       ]
     },
     {
-      imaURL: "./assets/product/boAt-Storm-call.webp",
+      imaURL: BoatStormCallProduct,
       title: "boAt Storm call",
       type: "watch",
       featuresList: [
